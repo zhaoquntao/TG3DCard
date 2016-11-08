@@ -1,7 +1,7 @@
 # TG3DCard
 ## 卡牌3D 浏览
 
-## ![](http://zhaoquntao/TG3DCard/Untitled.gif)![]
+##  ![image](https://github.com/zhaoquntao/TG3DCard/raw/master/Untitled.gif)
 ###主要代码
 #### 自定义UICollectionViewFlowLayout
 #### 重写方法
