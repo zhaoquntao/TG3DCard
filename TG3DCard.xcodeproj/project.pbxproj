@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5788DDD31DD1CBA5000F1FC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5788DDD21DD1CBA5000F1FC5 /* main.m */; };
+		5788DDD61DD1CBA5000F1FC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5788DDD51DD1CBA5000F1FC5 /* AppDelegate.m */; };
+		5788DDD91DD1CBA5000F1FC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5788DDD81DD1CBA5000F1FC5 /* ViewController.m */; };
+		5788DDDC1DD1CBA5000F1FC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5788DDDA1DD1CBA5000F1FC5 /* Main.storyboard */; };
+		5788DDDE1DD1CBA5000F1FC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5788DDDD1DD1CBA5000F1FC5 /* Assets.xcassets */; };
+		5788DDE11DD1CBA5000F1FC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5788DDDF1DD1CBA5000F1FC5 /* LaunchScreen.storyboard */; };
+		5788DDEC1DD1CBA6000F1FC5 /* TG3DCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5788DDEB1DD1CBA6000F1FC5 /* TG3DCardTests.m */; };
+		5788DDF71DD1CBA6000F1FC5 /* TG3DCardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5788DDF61DD1CBA6000F1FC5 /* TG3DCardUITests.m */; };
+		5788DE071DD1CC43000F1FC5 /* TGFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5788DE061DD1CC43000F1FC5 /* TGFlowLayout.m */; };
+		5788DE0B1DD1CC63000F1FC5 /* TGCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5788DE091DD1CC63000F1FC5 /* TGCollectionViewCell.m */; };
+		5788DE0C1DD1CC63000F1FC5 /* TGCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5788DE0A1DD1CC63000F1FC5 /* TGCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5788DDE81DD1CBA6000F1FC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5788DDC61DD1CBA5000F1FC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5788DDCD1DD1CBA5000F1FC5;
+			remoteInfo = TG3DCard;
+		};
+		5788DDF31DD1CBA6000F1FC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5788DDC61DD1CBA5000F1FC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5788DDCD1DD1CBA5000F1FC5;
+			remoteInfo = TG3DCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5788DDCE1DD1CBA5000F1FC5 /* TG3DCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TG3DCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5788DDD21DD1CBA5000F1FC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5788DDD41DD1CBA5000F1FC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5788DDD51DD1CBA5000F1FC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5788DDD71DD1CBA5000F1FC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5788DDD81DD1CBA5000F1FC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5788DDDB1DD1CBA5000F1FC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5788DDDD1DD1CBA5000F1FC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5788DDE01DD1CBA5000F1FC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5788DDE21DD1CBA5000F1FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5788DDE71DD1CBA6000F1FC5 /* TG3DCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TG3DCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5788DDEB1DD1CBA6000F1FC5 /* TG3DCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TG3DCardTests.m; sourceTree = "<group>"; };
+		5788DDED1DD1CBA6000F1FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5788DDF21DD1CBA6000F1FC5 /* TG3DCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TG3DCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5788DDF61DD1CBA6000F1FC5 /* TG3DCardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TG3DCardUITests.m; sourceTree = "<group>"; };
+		5788DDF81DD1CBA6000F1FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5788DE051DD1CC43000F1FC5 /* TGFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGFlowLayout.h; sourceTree = "<group>"; };
+		5788DE061DD1CC43000F1FC5 /* TGFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGFlowLayout.m; sourceTree = "<group>"; };
+		5788DE081DD1CC63000F1FC5 /* TGCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCollectionViewCell.h; sourceTree = "<group>"; };
+		5788DE091DD1CC63000F1FC5 /* TGCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCollectionViewCell.m; sourceTree = "<group>"; };
+		5788DE0A1DD1CC63000F1FC5 /* TGCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TGCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5788DDCB1DD1CBA5000F1FC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5788DDE41DD1CBA6000F1FC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5788DDEF1DD1CBA6000F1FC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5788DDC51DD1CBA5000F1FC5 = {
+			isa = PBXGroup;
+			children = (
+				5788DDD01DD1CBA5000F1FC5 /* TG3DCard */,
+				5788DDEA1DD1CBA6000F1FC5 /* TG3DCardTests */,
+				5788DDF51DD1CBA6000F1FC5 /* TG3DCardUITests */,
+				5788DDCF1DD1CBA5000F1FC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5788DDCF1DD1CBA5000F1FC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5788DDCE1DD1CBA5000F1FC5 /* TG3DCard.app */,
+				5788DDE71DD1CBA6000F1FC5 /* TG3DCardTests.xctest */,
+				5788DDF21DD1CBA6000F1FC5 /* TG3DCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5788DDD01DD1CBA5000F1FC5 /* TG3DCard */ = {
+			isa = PBXGroup;
+			children = (
+				5788DDD41DD1CBA5000F1FC5 /* AppDelegate.h */,
+				5788DDD51DD1CBA5000F1FC5 /* AppDelegate.m */,
+				5788DDD71DD1CBA5000F1FC5 /* ViewController.h */,
+				5788DDD81DD1CBA5000F1FC5 /* ViewController.m */,
+				5788DE081DD1CC63000F1FC5 /* TGCollectionViewCell.h */,
+				5788DE091DD1CC63000F1FC5 /* TGCollectionViewCell.m */,
+				5788DE0A1DD1CC63000F1FC5 /* TGCollectionViewCell.xib */,
+				5788DE041DD1CC13000F1FC5 /* TGFlowLayout */,
+				5788DDDA1DD1CBA5000F1FC5 /* Main.storyboard */,
+				5788DDDD1DD1CBA5000F1FC5 /* Assets.xcassets */,
+				5788DDDF1DD1CBA5000F1FC5 /* LaunchScreen.storyboard */,
+				5788DDE21DD1CBA5000F1FC5 /* Info.plist */,
+				5788DDD11DD1CBA5000F1FC5 /* Supporting Files */,
+			);
+			path = TG3DCard;
+			sourceTree = "<group>";
+		};
+		5788DDD11DD1CBA5000F1FC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5788DDD21DD1CBA5000F1FC5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5788DDEA1DD1CBA6000F1FC5 /* TG3DCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				5788DDEB1DD1CBA6000F1FC5 /* TG3DCardTests.m */,
+				5788DDED1DD1CBA6000F1FC5 /* Info.plist */,
+			);
+			path = TG3DCardTests;
+			sourceTree = "<group>";
+		};
+		5788DDF51DD1CBA6000F1FC5 /* TG3DCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5788DDF61DD1CBA6000F1FC5 /* TG3DCardUITests.m */,
+				5788DDF81DD1CBA6000F1FC5 /* Info.plist */,
+			);
+			path = TG3DCardUITests;
+			sourceTree = "<group>";
+		};
+		5788DE041DD1CC13000F1FC5 /* TGFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				5788DE051DD1CC43000F1FC5 /* TGFlowLayout.h */,
+				5788DE061DD1CC43000F1FC5 /* TGFlowLayout.m */,
+			);
+			path = TGFlowLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5788DDCD1DD1CBA5000F1FC5 /* TG3DCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5788DDFB1DD1CBA6000F1FC5 /* Build configuration list for PBXNativeTarget "TG3DCard" */;
+			buildPhases = (
+				5788DDCA1DD1CBA5000F1FC5 /* Sources */,
+				5788DDCB1DD1CBA5000F1FC5 /* Frameworks */,
+				5788DDCC1DD1CBA5000F1FC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TG3DCard;
+			productName = TG3DCard;
+			productReference = 5788DDCE1DD1CBA5000F1FC5 /* TG3DCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5788DDE61DD1CBA6000F1FC5 /* TG3DCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5788DDFE1DD1CBA6000F1FC5 /* Build configuration list for PBXNativeTarget "TG3DCardTests" */;
+			buildPhases = (
+				5788DDE31DD1CBA6000F1FC5 /* Sources */,
+				5788DDE41DD1CBA6000F1FC5 /* Frameworks */,
+				5788DDE51DD1CBA6000F1FC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5788DDE91DD1CBA6000F1FC5 /* PBXTargetDependency */,
+			);
+			name = TG3DCardTests;
+			productName = TG3DCardTests;
+			productReference = 5788DDE71DD1CBA6000F1FC5 /* TG3DCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5788DDF11DD1CBA6000F1FC5 /* TG3DCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5788DE011DD1CBA6000F1FC5 /* Build configuration list for PBXNativeTarget "TG3DCardUITests" */;
+			buildPhases = (
+				5788DDEE1DD1CBA6000F1FC5 /* Sources */,
+				5788DDEF1DD1CBA6000F1FC5 /* Frameworks */,
+				5788DDF01DD1CBA6000F1FC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5788DDF41DD1CBA6000F1FC5 /* PBXTargetDependency */,
+			);
+			name = TG3DCardUITests;
+			productName = TG3DCardUITests;
+			productReference = 5788DDF21DD1CBA6000F1FC5 /* TG3DCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5788DDC61DD1CBA5000F1FC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "赵群涛";
+				TargetAttributes = {
+					5788DDCD1DD1CBA5000F1FC5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = HGK2L3FZ48;
+						ProvisioningStyle = Automatic;
+					};
+					5788DDE61DD1CBA6000F1FC5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = HGK2L3FZ48;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5788DDCD1DD1CBA5000F1FC5;
+					};
+					5788DDF11DD1CBA6000F1FC5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = HGK2L3FZ48;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5788DDCD1DD1CBA5000F1FC5;
+					};
+				};
+			};
+			buildConfigurationList = 5788DDC91DD1CBA5000F1FC5 /* Build configuration list for PBXProject "TG3DCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5788DDC51DD1CBA5000F1FC5;
+			productRefGroup = 5788DDCF1DD1CBA5000F1FC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5788DDCD1DD1CBA5000F1FC5 /* TG3DCard */,
+				5788DDE61DD1CBA6000F1FC5 /* TG3DCardTests */,
+				5788DDF11DD1CBA6000F1FC5 /* TG3DCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5788DDCC1DD1CBA5000F1FC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5788DDE11DD1CBA5000F1FC5 /* LaunchScreen.storyboard in Resources */,
+				5788DDDE1DD1CBA5000F1FC5 /* Assets.xcassets in Resources */,
+				5788DDDC1DD1CBA5000F1FC5 /* Main.storyboard in Resources */,
+				5788DE0C1DD1CC63000F1FC5 /* TGCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5788DDE51DD1CBA6000F1FC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5788DDF01DD1CBA6000F1FC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5788DDCA1DD1CBA5000F1FC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5788DDD91DD1CBA5000F1FC5 /* ViewController.m in Sources */,
+				5788DDD61DD1CBA5000F1FC5 /* AppDelegate.m in Sources */,
+				5788DE071DD1CC43000F1FC5 /* TGFlowLayout.m in Sources */,
+				5788DDD31DD1CBA5000F1FC5 /* main.m in Sources */,
+				5788DE0B1DD1CC63000F1FC5 /* TGCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5788DDE31DD1CBA6000F1FC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5788DDEC1DD1CBA6000F1FC5 /* TG3DCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5788DDEE1DD1CBA6000F1FC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5788DDF71DD1CBA6000F1FC5 /* TG3DCardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5788DDE91DD1CBA6000F1FC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5788DDCD1DD1CBA5000F1FC5 /* TG3DCard */;
+			targetProxy = 5788DDE81DD1CBA6000F1FC5 /* PBXContainerItemProxy */;
+		};
+		5788DDF41DD1CBA6000F1FC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5788DDCD1DD1CBA5000F1FC5 /* TG3DCard */;
+			targetProxy = 5788DDF31DD1CBA6000F1FC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5788DDDA1DD1CBA5000F1FC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5788DDDB1DD1CBA5000F1FC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5788DDDF1DD1CBA5000F1FC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5788DDE01DD1CBA5000F1FC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5788DDF91DD1CBA6000F1FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5788DDFA1DD1CBA6000F1FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5788DDFC1DD1CBA6000F1FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HGK2L3FZ48;
+				INFOPLIST_FILE = TG3DCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZQT.TG3DCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5788DDFD1DD1CBA6000F1FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HGK2L3FZ48;
+				INFOPLIST_FILE = TG3DCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZQT.TG3DCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5788DDFF1DD1CBA6000F1FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HGK2L3FZ48;
+				INFOPLIST_FILE = TG3DCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZQT.TG3DCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TG3DCard.app/TG3DCard";
+			};
+			name = Debug;
+		};
+		5788DE001DD1CBA6000F1FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HGK2L3FZ48;
+				INFOPLIST_FILE = TG3DCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZQT.TG3DCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TG3DCard.app/TG3DCard";
+			};
+			name = Release;
+		};
+		5788DE021DD1CBA6000F1FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = HGK2L3FZ48;
+				INFOPLIST_FILE = TG3DCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZQT.TG3DCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TG3DCard;
+			};
+			name = Debug;
+		};
+		5788DE031DD1CBA6000F1FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = HGK2L3FZ48;
+				INFOPLIST_FILE = TG3DCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZQT.TG3DCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TG3DCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5788DDC91DD1CBA5000F1FC5 /* Build configuration list for PBXProject "TG3DCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5788DDF91DD1CBA6000F1FC5 /* Debug */,
+				5788DDFA1DD1CBA6000F1FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5788DDFB1DD1CBA6000F1FC5 /* Build configuration list for PBXNativeTarget "TG3DCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5788DDFC1DD1CBA6000F1FC5 /* Debug */,
+				5788DDFD1DD1CBA6000F1FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5788DDFE1DD1CBA6000F1FC5 /* Build configuration list for PBXNativeTarget "TG3DCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5788DDFF1DD1CBA6000F1FC5 /* Debug */,
+				5788DE001DD1CBA6000F1FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5788DE011DD1CBA6000F1FC5 /* Build configuration list for PBXNativeTarget "TG3DCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5788DE021DD1CBA6000F1FC5 /* Debug */,
+				5788DE031DD1CBA6000F1FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5788DDC61DD1CBA5000F1FC5 /* Project object */;
+}
