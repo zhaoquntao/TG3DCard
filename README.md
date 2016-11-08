@@ -1,5 +1,7 @@
 # TG3DCard
 ## 卡牌3D 浏览
+
+## ![](http://zhaoquntao/TG3DCard/Untitled.gif)![]
 ###主要代码
 #### 自定义UICollectionViewFlowLayout
 #### 重写方法
@@ -58,7 +60,7 @@
          return YES;
     }
 
-####pragma mark 创建流水布局
+#### 创建流水布局
     - (TGFlowLayout *)setupCollectionViewFlowLayout {
     TGFlowLayout *layout = [[TGFlowLayout alloc] init];
     layout.itemSize = CGSizeMake(250, 350);
@@ -71,8 +73,8 @@
     return layout;
      }
 
-####pragma mark - 创建UICollectionView
-  - (void)setupCollectionView:(UICollectionViewFlowLayout *)layout
+#### 创建UICollectionView
+    - (void)setupCollectionView:(UICollectionViewFlowLayout *)layout
     {
     UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:layout];
     collectionView.backgroundColor = [UIColor lightGrayColor];
@@ -87,4 +89,6 @@
     // 注册cell
      [collectionView registerNib:[UINib nibWithNibName:NSStringFromClass([TGCollectionViewCell class])  bundle:nil] forCellWithReuseIdentifier:TGID];
      }
+
+
 
